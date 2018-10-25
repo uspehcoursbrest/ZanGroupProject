@@ -2,11 +2,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0 auto;
     font-family: "Open Sans";
 }
-
+input,textarea,button{
+    font-family: "Open Sans";}
 
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -22,4 +23,186 @@ ul{
     width: 1010px;
     margin: 0 auto;
     padding: 0 15px;
+}
+header .login{
+    font-size: 13px;
+    line-height: 19px;
+    color: #0069b4;
+}
+header .menu a{
+    font-size: 13px;
+    line-height: 28px;
+    color: #333333;
+}
+header .phone {
+    font-size: 20px;
+    line-height: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+header .callback{
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #0069b4;
+    border-bottom: 1px dashed #0069b4;
+}
+header p.timing{
+    font-size: 13px;
+    line-height: 19px;
+    color: #999999;
+}
+header .basket{
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+header .basket span{
+    color: #179547;
+}
+header [class*="icon"]{
+    color: #caebd4;
+}
+header .login [class="icon"]{
+    font-size: 19px;
+}
+header .phone [class="icon"]{
+    font-size: 20px;
+}
+.advantages .item span{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #333333;
+}
+.advantages .item p{
+    font-size: 12px;
+    line-height: 14px;
+    color: #666666;
+}
+.subscribe{
+    background-color: #64ba4a;
+}
+.subscribe label{
+    font-size: 16px;
+    color: #ffffff;
+}
+.subscribe input{
+    font-size: 13px;
+    line-height: 37px;
+    color: #999999;
+}
+.subscribe button{
+    font-size: 13px;
+    line-height: 37px;
+    text-align: center;
+    color: #ffffff;
+    width: 190px;
+    background-color: #259c47;
+    border: none;
+}
+.subscribe .wrap span{
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+}
+.filter li{
+    font-size: 13px;
+    line-height: 16px;
+    border-bottom:1px dashed#666666
+}
+.filter li a {
+    text-decoration: none;
+    color: #666666;
+}
+.card .img{
+    height: 220px;
+    width: 220px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+.card .title{
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+.card a{
+    font-size: 15px;
+    line-height: 22px;
+    color: #0069b4;
+}
+.card .price{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #333333;
+}
+.card .price .old{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal;
+    text-decoration: line-through;
+    color: #666666;
+}
+.card button{
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff7200;
+    border: none;
+    width: 100px ;
+}
+.widgets h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #666666;
+}
+.socialsItem:first-child,
+.socialsItem:last-child{
+    width: 290px;
+    height: 400px;
+}
+.socialsItem:nth-child(2){
+    width:  350px;
+    height: 400px;
+}
+.socialsItem{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.tabs li a{
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 45px;
+    color: #999999;
+}
+.info .content{
+    font-size: 12px;
+    line-height: 18px;
+    color:#333333;
+}
+.info .title{
+    text-transform: uppercase;
+}
+footer{
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #63b949;
+}
+footer a{
+    text-decoration:none;
+    color: #ffffff;
+}
+footer a.socLink{
+    font-size: 21px;
 }
