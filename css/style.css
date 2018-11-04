@@ -24,6 +24,22 @@ ul{
     margin: 0 auto;
     padding: 0 15px;
 }
+.invisLink{
+    position: relative;
+    z-index: 1;
+}
+.invisLink>a{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-spacing: nowrap;
+}
 .clear::after{
     content: "";
     display: block;
@@ -101,6 +117,26 @@ header .login [class="icon"]{
 header .phone [class="icon"]{
     font-size: 20px;
 }
+.sale{
+    width:305px;
+    height: 360px;
+
+}
+.slider{
+    height: 360px;
+    width: 640px;
+}
+.banner>div{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
 .advantages{
     width: calc(100% - 320px);
     float: left;
@@ -198,6 +234,11 @@ header .phone [class="icon"]{
 .status.new{
     background-color: #78ec71;
 }
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
 .card .img{
     height: 220px;
     width: 220px;
@@ -214,6 +255,9 @@ header .phone [class="icon"]{
 .card .content{
     min-height: 110px;
     position: relative;
+}
+.card{
+    border-bottom: 1px solid #e4e4e4;
 }
 .card a{
     font-size: 15px;
@@ -246,7 +290,7 @@ header .phone [class="icon"]{
     border: none;
     width: 100px ;
     display: block;
-    float: right;
+    float: right
 }
 .card .content .buy{
     position: absolute;
@@ -261,6 +305,10 @@ header .phone [class="icon"]{
     text-align: center;
     color: #666666;
 }
+.widgets .wrap{
+    display: flex;
+    justify-content: space-between;
+}
 .socialsItem:first-child,
 .socialsItem:last-child{
     width: 290px;
@@ -274,6 +322,10 @@ header .phone [class="icon"]{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
+}
+.info .tabs li{
+    display: inline-block;
+    padding: 0px 15px;
 }
 .tabs li a{
     font-size: 14px;
