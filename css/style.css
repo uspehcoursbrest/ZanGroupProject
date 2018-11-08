@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -17,6 +17,13 @@ ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+a:hover{
+    text-decoration: none;
+}
+header .phone:hover{
+    color: #179547;
+
 }
 
 .container{
@@ -82,6 +89,12 @@ header .phone {
     line-height: 20px;
     color: #333333;
     text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
 }
 header .callback{
     font-size: 12px;
@@ -89,6 +102,14 @@ header .callback{
     text-decoration: none;
     color: #0069b4;
     border-bottom: 1px dashed #0069b4;
+    webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header .callback:hover{
+    border-bottom: 1px dashed transparent;
 }
 header p.timing{
     font-size: 13px;
@@ -104,6 +125,9 @@ header .basket{
     padding-left: 28px;
     background-repeat: no-repeat;
     background-position: left center;
+}
+ header a.basket:hover{
+    color: #179547;
 }
 header .basket span{
     color: #179547;
@@ -174,6 +198,12 @@ header .phone [class="icon"]{
     width: 100%;
     border: none;
 }
+.subscribe input::placeholder{
+    line-height: 37px;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 10px;
+}
 .subscribe button{
     font-size: 13px;
     line-height: 37px;
@@ -204,6 +234,9 @@ header .phone [class="icon"]{
     display: inline-block;
 
 
+}
+.filter li:hover {
+    border-bottom:1px dashed transparent ;
 }
 .filter li+li{
     margin-left: 20px;
@@ -340,6 +373,23 @@ header .phone [class="icon"]{
 }
 .info .title{
     text-transform: uppercase;
+    position: relative;
+    padding-left: 25px;
+    display: block;
+}
+.info .title::before{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid #333333;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -3px;
+
 }
 footer{
     font-size: 13px;
@@ -413,4 +463,54 @@ footer a.socLink{
     font-size: 13px;
     line-height: 22px;
     color: #0069b4;
+}
+/*страница Оформление заказов */
+.orderList li{
+    padding-left: 40px;
+}
+.orderList label{
+    position: relative;
+    padding-left: 40px;
+    margin-left: -40px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+
+}
+.radioBtn{
+    display: none;
+}
+.radioBtn:not(checkked) + label::before{
+     content: "";
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 22px;
+     height: 22px;
+     border: 2px solid #d4d4d4;
+     border-radius: 50%;
+     transition: all 0.3s;
+ }
+.radioBtn:not(checkked) + label::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    background-color: #51bf87;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.radioBtn:checked + label::before{
+    border-color: #51bf87;
+}
+.radioBtn:checked + label::after{
+    opacity: 1;
+}
+.radioBtn +label{
+    cursor: pointer;
 }
