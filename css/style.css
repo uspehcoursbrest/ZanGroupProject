@@ -557,6 +557,62 @@ footer a.socLink{
     .container{
         width: 100%;
     }
+    .banner {
+        display: none;
+    }
 
+    .advSub {
+        display: none;
+    }
 
+    .filter {
+        display: none;
+    }
+
+    .selFilter {
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 45px;
+        vertical-align: top;
+    }
+
+    .selFilter select {
+        height: 100%;
+        width: 130px;
+        border: 1px solid #c3c3c3;
+        display: block;
+        float: left;
+    }
+
+    .view{
+        display: block;
+        float: right;
+    }
+
+    .view span{
+        font-size: 40px;
+    }
+
+    .view span:last-child{
+        margin-left: 18px;
+    }
+
+    .cards {
+        width: 100%;
+        display: block;
+
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card .img {
+        width: 100%;
+
+    }
 }
+
+
+
