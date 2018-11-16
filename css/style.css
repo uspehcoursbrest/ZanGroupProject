@@ -514,6 +514,545 @@ footer a.socLink{
 .radioBtn +label{
     cursor: pointer;
 }
+.selectB1 select {
+    width: 288px;
+    height: 27px;
+    border: 1px solid #d6d6d6;
+}
+
+.selectB1{
+    margin-top: 14px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.selectB1 select {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #333333;
+    display: block;
+}
+.selectB1 label {
+    font-size: 13px;
+    color: #666666;
+    font-style: italic;
+}
+
+.methodDelivery {
+    margin-top: 15px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.methodDelivery span:nth-child(1) {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.methodDelivery label {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 19px;
+    color: #333333;
+}
+
+.methodDelivery p {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #666666;
+}
+
+.methodDelivery .additional {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #f26522;
+}
+
+.orderList li {
+    width: 460px;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.orderList label {
+    position: relative;
+    padding-left: 40px;
+    margin-left: -40px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+}
+
+
+
+.deliveryInfo div {
+    margin-top: 9px;
+}
+
+.deliveryInfo input {
+    display: block;
+}
+.deliveryInfo  label span{
+    color: #ee393e;
+}
+
+.deliveryInfo .deliveryStrDist input {
+    width: 288px;
+    height: 27px;
+}
+
+.deliveryInfo textarea {
+    display: block;
+    width: 288px;
+}
+
+.deliveryInfo div textarea {
+    height: 104px;
+}
+
+.deliveryFlex {
+    display: flex;
+}
+.deliveryInfo label {
+    font-size: 13px;
+    color: #666666;
+    font-style: italic;
+}
+
+.deliveryFlex .deliveryArea1 input {
+    width: 57px;
+    height: 27px;
+}
+
+.deliveryFlex .deliveryArea2 input {
+    width: 57px;
+    height: 27px;
+}
+
+.deliveryFlex .deliveryArea3 input {
+    width: 95px;
+    height: 27px;
+}
+
+.deliveryFlex .deliveryArea2 {
+    padding-left: 40px;
+}
+
+.deliveryFlex .deliveryArea3 {
+    padding-left: 39px;
+}
+
+.choosePay {
+    margin-top: 16px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.choosePay span:first-child {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.choosePay label {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 19px;
+    color: #333333;
+}
+
+.choosePay p {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #666666;
+}
+
+.yourInfo div {
+    margin-top: 9px;
+}
+
+
+.yourInfo input {
+    display: block;
+}
+
+.yourInfo input {
+    width: 288px;
+    height: 27px;
+}
+
+.yourInfo label span {
+    color: #ee393e;
+}
+.yourInfo label {
+    font-size: 13px;
+    color: #666666;
+    font-style: italic;
+}
+
+.yourInfo {
+    margin-top: 15px;
+    padding-bottom: 67px;
+}
+
+.yourInfo > span {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+    display: inline-block;
+
+}
+
+.yourInfo .starLabel span {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 22px;
+    color: #ed1c24;
+}
+
+.yourInfo div input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.yourInfo button {
+    width: 191px;
+    height: 35px;
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff7200;
+    margin-top: 23px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+}
+
+
+/*клиенты*/
+.breadcrumbs {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+    color: #999999;
+    padding-bottom: 22px;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.clientWrap{
+    padding-bottom: 55px;
+}
+
+.clientWrap .left {
+    width: 305px;
+    float: left;
+}
+
+.clientWrap .left p {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.clientWrap .left .formClient {
+    background-color: #f9f9f9;
+    width: 100%;
+    padding: 14px 10px 20px 10px;
+}
+
+.clientWrap .left .labelFormClient {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 22px;
+    color: #666666;
+}
+
+.clientWrap .formSize {
+    width: 283px;
+    height: 27px;
+}
+
+.clientWrap .left input {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #333333;
+    display: block;
+}
+
+.clientWrap .addLogo .leftLogo{
+    width: 145px;
+    float: left;
+}
+
+.clientWrap .addLogo .writeLogo {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #333333;
+}
+
+.clientWrap .left .signature {
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 11px;
+    color: #999999;
+    display: block;
+}
+
+.clientWrap .addLogo .rightLogo{
+    width: calc(100% - 175px);
+    float: right;
+}
+
+.clientWrap .addLogo .rightLogo li{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.clientWrap .left .addLogo label {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 19px;
+    color: #666666;
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.clientWrap .addLogo input{
+    display: none;
+}
+
+.addLogo .radioBtn:not(checked) + label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 27px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.addLogo .radioBtn:not(checked) + label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 31px;
+    width: 7px;
+    height: 7px;
+    background-color: #51bf87;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.addLogo .radioBtn:checked + label::before {
+    border-color: #51bf87;
+}
+
+.addLogo .radioBtn:checked + label::after {
+    opacity: 1;
+}
+
+.addLogo .radioBtn + label {
+    cursor: pointer;
+}
+
+
+
+.clientWrap .left .addFile{
+    margin-top: 8px;
+}
+
+.clientWrap .left .addFile label {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #229647;
+}
+
+.clientWrap .left .howMany{
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+
+.clientWrap .left .howMany select{
+    width: 84px;
+    display: block;
+}
+
+.clientWrap .date div input{
+    width: 106px;
+    display: inline-block;
+}
+
+.clientWrap .date div img{
+    margin-left: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clientWrap .addInf textarea{
+    width: 283px;
+    height: 124px;
+    margin-bottom: 22px;
+}
+
+.clientWrap .left button {
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff7200;
+    width: 130px;
+    height: 31px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+}
+
+
+
+.clientWrap .right {
+    width: calc(100% - 310px);
+    float: left;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+.clientWrap .right h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+    padding-bottom: 12px;
+}
+
+.clientWrap .right p {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #333333;
+    padding-bottom: 23px;
+}
+
+.clientWrap .right p:last-child {
+    padding-bottom: 18px;
+}
+
+.selectBL {
+    width: 290px;
+}
+
+.selectBL .selectric {
+    width: 100%;
+    height: 28px;
+    background-color: #ffffff;
+    border: 1px solid #d6d6d6;
+}
+
+.selectBL .selectric .label {
+    font-size: 13px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.selectBL .selectric .button {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid #00a48c;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    margin-top: -2px;
+    background-color: transparent;
+}
+
+
+
+.selectBL .selectric-items {
+    border: 1px solid #d6d6d6;
+}
+
+.selectBL .selectric-items li {
+    padding: 0;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
+
+.clientWrap .right button {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    background-color: #64ba4a;
+    width: 194px;
+    height: 31px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+
+
+
+
+
 
 /*адаптивность*/
 @media (max-width: 1199px){
@@ -557,60 +1096,30 @@ footer a.socLink{
     .container{
         width: 100%;
     }
-    .banner {
+
+    .banner .sale,
+    .banner .slider,
+    .subscribe,
+    .advantages,
+    .widgets,
+    header .table,
+    .info,
+    .accordion{
         display: none;
     }
-
-    .advSub {
-        display: none;
-    }
-
-    .filter {
-        display: none;
-    }
-
-    .selFilter {
-        display: block;
-        margin-bottom: 30px;
+    header{
         width: 100%;
-        height: 45px;
-        vertical-align: top;
+        height: 115px;
+        background-color: #63ba49;
     }
-
-    .selFilter select {
-        height: 100%;
-        width: 130px;
-        border: 1px solid #c3c3c3;
-        display: block;
-        float: left;
-    }
-
-    .view{
-        display: block;
-        float: right;
-    }
-
-    .view span{
-        font-size: 40px;
-    }
-
-    .view span:last-child{
-        margin-left: 18px;
-    }
-
     .cards {
-        width: 100%;
-        display: block;
-
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
-    .card{
-        width: 100%;
-    }
-
-    .card .img {
-        width: 100%;
-
+    .card {
+        flex: 1 0 270px;
     }
 }
 
