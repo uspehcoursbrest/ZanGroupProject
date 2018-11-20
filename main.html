@@ -7,9 +7,11 @@
 
   <link rel="stylesheet" href="fonts/stylesheet.css">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/style.css">
 
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -52,7 +54,14 @@
   <div class="content">
     <div class="banner">
       <div class="sale" style="background-image: url(img/jpg/sale.jpg)"></div>
-      <div class="slider" style="background-image: url(img/jpg/slider.jpg)"></div>
+      <div class="slider">
+        <div class="mainSlider owl-carousel">
+          <div class="item" style="background-image: url(img/jpg/slider.jpg)"></div>
+          <div class="item" style="background-image: url(img/jpg/slider.jpg)"></div>
+          <div class="item" style="background-image: url(img/jpg/slider.jpg)"></div>
+        </div>
+        <div id="customDots"></div>
+      </div>
     </div>
     <div class="advSub clear">
       <div class="advantages clear">

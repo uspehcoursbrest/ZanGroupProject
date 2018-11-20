@@ -35,6 +35,17 @@ $(document).ready(function () {
         }, 500);
         return false;
     })
+    $(".mainSlider").owlCarousel({
+        dots: true,
+        nav: false,
+        items: 1,
+        loop:true,
+        dotsContainer: "#customDots"
+    });
+
+    $("#tabs").tabs({
+        active: 0
+    });
 
 
 })
